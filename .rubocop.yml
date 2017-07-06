@@ -1,0 +1,15 @@
+
+Style/LambdaCall:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 120
+
+Lint/AmbiguousBlockAssociation:
+  Enabled: false
+
+Documentation:
+  Enabled: false
+
+AllCops:
+  TargetRubyVersion: 2.4
