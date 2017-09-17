@@ -12,8 +12,8 @@ module Domain
 
     attribute :id, UUID.default { UUID.generate }
     attribute :name, Strict::String
-    attribute :artists, Strict::Array.member(Artist)
+    attribute :artists, Strict::Array.of(Artist)
     attribute :release_date, Strict::Date
-    attribute :ambiances, Strict::Array.member(Ambiance).default([])
+    attribute :ambiances, Strict::Array.of(Ambiance).default([])
   end
 end
