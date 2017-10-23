@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'dry-struct'
-require 'lib/uuid'
+require 'uuid'
 require 'domain/ambiance'
 require 'domain/artist'
 
