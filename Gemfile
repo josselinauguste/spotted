@@ -3,13 +3,12 @@
 source 'https://rubygems.org'
 
 # Infrastructure
-gem 'mysql2', '~> 0.4.6'
-gem 'sequel', '~> 4.47'
+gem 'mongo', '~> 2.4', '>= 2.4.3'
 gem 'sinatra', '~> 2.0'
 
 gem 'dry-auto_inject', '~> 0.4.3'
 gem 'dry-struct', '~> 0.3.0'
-gem 'dry-system', '~> 0.7.1'
+gem 'dry-system', '~> 0.8.1'
 
 group :development do
   gem 'rubocop', require: false
